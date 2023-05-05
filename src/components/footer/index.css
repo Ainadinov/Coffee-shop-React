@@ -1,0 +1,28 @@
+/* Footer */
+  
+.footer{
+    text-align: center;
+  }
+  
+  .footer div:first-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px 0;  
+  }
+  
+  .footer__link{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+  
+    text-decoration: none;
+    color: #000000;
+  }
+  
+  .footer__img{
+    padding-top: 30px;
+  }

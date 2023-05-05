@@ -1,7 +1,29 @@
+import './index.css';
+import SideBar from "../sidebar/sidebar";
 import logo from "../images/Beans-logo.png"
 import logoBlack from "../images/Beans-logo-black.png"
-import SideBar from "../sidebar/sidebar";
+import BestCoffee1 from "../images/best-coffee-1.png"
+import BestCoffee2 from "../images/best-coffee-2.png"
+import BestCoffee3 from "../images/best-coffee-3.png"
+import Footer from "../footer/footer";
 
+const BestCoffee = [
+    {
+        img:BestCoffee1,
+        name: "Solimo Coffee Beans 2 kg",
+        price: "10.73$",
+    },
+    {
+        img:BestCoffee2,
+        name: "Presto Coffee Beans 1 kg",
+        price: "15.99$",
+    },
+    {
+        img:BestCoffee3,
+        name: "AROMISTICO Coffee 1 kg",
+        price: "6.99$",
+    },
+]
 
 function CoffeeHouse(){
     return(
@@ -32,6 +54,20 @@ function CoffeeHouse(){
                     recommend. Did even but nor are most gave hope. Secure active living depend son
                     repair day ladies now.</p>
             </div>
+
+            <div className="best">
+                <h2 className="best__title">Our Best</h2>
+                <div className="best__item">
+                    {BestCoffee.map((e,i)=>                 
+                    <div className="best__column" key={i}>
+                        <img src={e.img} alt="#"></img>
+                        <div className="best__name">{e.name}</div>
+                        <div className="best__price">{e.price}</div>
+                    </div>)}
+                </div>
+            </div>
+
+            <Footer/>
         </div>
     )
 }

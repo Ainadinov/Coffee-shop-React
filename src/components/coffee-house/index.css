@@ -1,0 +1,133 @@
+/* coffee-house */
+
+.header{
+    padding: 181px 281px;
+    text-align: center;
+  
+    background: url("../images/coffee-bg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .header__title{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+  
+    color: #FFFFFF;
+  
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .header__subtitle{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+  
+    color: #FFFFFF;
+  }
+  
+  .header__btn{
+    padding: 5px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+  
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+  }
+  
+  /* About */
+  
+  .about{
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .about__title{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+  
+    color: #000000;
+  }
+  
+  .about p{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+    
+    margin: 0 auto;
+    width: 589px;
+    color: #000000;
+  }
+  
+  /* Our Best */
+  
+  .best{
+    padding: 30px 0 60px;
+  
+    background: url("../images/best-bg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .best__title{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .best__item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+  
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height */
+  
+    text-align: center;
+  
+    color: #000000;
+  }
+  .best__name{
+    padding: 12px 0 10px;
+  }
+  
+  .best__column{
+    padding: 22px;
+  
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 8px; 
+  }
+  
+  .best__price{
+    display: flex;
+    justify-content: flex-end;
+    
+    font-weight: 700;
+  }
+  
+  

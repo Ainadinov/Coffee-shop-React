@@ -1,7 +1,9 @@
+import './index.css';
+
 function OurCoffee(){
     return(
         <div className="our__coffee">
-            OurCoffee
+            
         </div>
     )
 }
