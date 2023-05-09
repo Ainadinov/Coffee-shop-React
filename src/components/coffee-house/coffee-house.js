@@ -1,5 +1,4 @@
 import './index.css';
-import SideBar from "../sidebar/sidebar";
 import logo from "../images/Beans-logo.png"
 import logoBlack from "../images/Beans-logo-black.png"
 import BestCoffee1 from "../images/best-coffee-1.png"
@@ -29,7 +28,6 @@ function CoffeeHouse(){
     return(
         <div className="coffee__house">
             <div className="header">
-                <SideBar/>
                 <h1 className="header__title">Everything You Love About Coffee</h1>
                 <img src={logo}></img>
                 <h2 className="header__subtitle">We makes every day full of energy and taste</h2>

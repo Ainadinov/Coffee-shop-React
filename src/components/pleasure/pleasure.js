@@ -3,8 +3,26 @@ import logoBlack from "../images/Beans-logo-black.png"
 import pleasureGoods from "../images/pleasure-goods.png"
 import Footer from '../footer/footer';
 import Coffee from '../chose-coffee/choose';
+import { useEffect, useState } from 'react';
 
 function Pleasure(){
+    const [collections, setCollections] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
+
+    useEffect(()=>{    
+        setIsLoading(true);
+        fetch(`https://645540a8a74f994b33564a43.mockapi.io/coffee?page=1&limit=6`)
+        .then((res) => res.json())
+        .then((json) => {
+          setCollections(json);
+        })
+        .catch((err) => {
+          console.warn(err);
+          alert('Error')
+        })
+        .finally(()=> setIsLoading(false))
+      }, []);
+
     return(
         <div className="pleasure">
             <h1 className='pleasure__title'>
@@ -20,7 +38,7 @@ function Pleasure(){
                 </div>
             </div>
 
-            <Coffee/>
+            <Coffee collections={collections} isLoading={isLoading}/>
             <Footer/>
         </div>
     )

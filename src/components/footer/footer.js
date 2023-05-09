@@ -6,7 +6,7 @@ function Footer(){
     return(
         <div className="footer">
                 <div>
-                    <Link className="footer__link" to="/coffee-house">Coffee House</Link>
+                    <Link className="footer__link" to="/">Coffee House</Link>
                     <Link className="footer__link" to="/our-house">Our Coffee</Link>
                     <Link className="footer__link" to="/pleasure">For your pleasure</Link>
                 </div>

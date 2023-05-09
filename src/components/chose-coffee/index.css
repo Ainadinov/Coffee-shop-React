@@ -6,12 +6,15 @@
     padding: 60px 0 30px;
 }
   
+a{
+    text-decoration: none;
+}
 
 .coffee__item{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 760px;
+    width: 800px;
     gap: 60px;
 
     font-family: 'Merienda', cursive;
@@ -24,8 +27,13 @@
     color: #000000;
 }
 
+.coffee__item h2{
+    margin: 0 auto;
+}
+
 .coffee__column{
     filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+    color: #000000;
     background: #FFFFFF;
     border-radius: 8px;
     padding: 20px;

@@ -1,0 +1,64 @@
+.our__coffee-title{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 58px;
+    padding: 100px 0;
+  
+    color: #FFFFFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    background: url("../images/our-coffee-bg.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.single__coffee{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 40px;
+}
+
+.single__about{
+    text-align: start;
+}
+
+.single__about div{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #000000;
+}
+
+
+
+.single__title{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+  
+    color: #000000;
+}
+  
+.single__text{
+    font-family: 'Merienda', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 20px 0;
+    
+    margin: 0 auto;
+    width: 346px;
+    color: #000000;
+}
